@@ -4,7 +4,7 @@ from gun2 import Gun
 from pygame.sprite import Group
 
 
-def run(): 123456
+def run():
 
     pygame.init()
     screen = pygame.display.set_mode((700, 800))
