@@ -4,11 +4,11 @@ class Bullet(pygame.sprite.Sprite):
 
     def __init__(self, screen, gun2):
         """создаем пулю в позиции пушки"""
-        super(Bullet,self).__init__()
+        super(Bullet, self).__init__()
         self.screen = screen
         self.rect = pygame.Rect(0, 0, 2, 12)
         self.color = 255, 203, 14
-        self.speed = 1.5
+        self.speed = 4.5
         self.rect.centerx = gun2.rect.centerx
         self.rect.top = gun2.rect.top
         self.y = float(self.rect.y)
